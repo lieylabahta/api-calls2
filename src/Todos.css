@@ -1,0 +1,18 @@
+table{
+    width:100%;
+}
+thead{
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+th{
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+td{
+    padding: 20px;
+}
