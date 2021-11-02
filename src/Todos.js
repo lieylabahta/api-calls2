@@ -18,8 +18,7 @@ function Todos(){
         <tr>
          <td>{el.userId}</td>
          <td>{el.id}</td>
-        <td>{el.title}</td>
-        <td>{el.completed}</td>
+         <td>{el.title}</td>
            </tr>
          )
          })  
@@ -27,10 +26,9 @@ function Todos(){
         <div><h1>Todos</h1>
         <table>
             <thead>
-                <th> UserId</th>
-                <th> Id</th>
-                <th> Title</th>
-                <th> Completed</th>
+                <th> userId</th>
+                <th> id</th>
+                <th> title</th>
             </thead>
             <tbody>{rows}</tbody>
         </table>

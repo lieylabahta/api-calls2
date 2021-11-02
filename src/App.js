@@ -18,8 +18,8 @@ function App() {
     </div>
     <div className='result'>
       <Switch>
-      <Route  path='/Todos'>Todos</Route>
-        <Route  path='/Posts'>Posts</Route>
+      <Route  path='/Todos'><Todos/>Todos</Route>
+        <Route  path='/Posts'><Posts/>Posts</Route>
         
       </Switch>
       </div>

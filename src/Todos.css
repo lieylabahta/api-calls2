@@ -10,9 +10,17 @@ th{
     padding: 25px;
     font-size: 20px;
     font-weight: bold;
+    justify-content: space-between;
 }
 
 
 td{
     padding: 20px;
+    justify-content: space-between;
 }
+tr:nth-child(odd){
+background-color: darkgray;
+}
+tr:nth-child(even){
+    background-color: #faf2f2e8;
+    }
